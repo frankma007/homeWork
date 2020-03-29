@@ -3,6 +3,8 @@
 		<HelloWorld msg="来看看税后工资" />
 		<Loan msg="来看看贷款情况" />
 		<Algorithm msg="结构算法问题" />
+		<Test />
+		<Layout />
 	</div>
 </template>
 
@@ -11,13 +13,17 @@
 import HelloWorld from './components/HelloWorld.vue'
 import Loan from './components/Loan.vue'
 import Algorithm from './components/Algorithm.vue'
+import Test from './components/Test.vue'
+import Layout from './components/Layout.vue'
 
 export default {
 	name: 'App',
 	components: {
 		HelloWorld,
 		Loan,
-		Algorithm
+		Algorithm,
+		Test,
+		Layout
 	},
 	methods: {}
 }
